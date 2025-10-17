@@ -68,7 +68,7 @@ Resumen Corto
 🖼️ **Imagen del equipo**
 
 <p aling ="center">
-  <img src= "belfis.jpg" t="Equipo de desarrollo del Kiosko Escolar" width="400">
+  <img src= "belfis.jpeg" t="Equipo de desarrollo del Kiosko Escolar" width="400">
 </p>
 
 
