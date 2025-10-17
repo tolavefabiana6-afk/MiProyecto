@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELFIS - Clínica de Fisioterapia Profesional</title>
+    <meta name="description" content="BELFIS - Clínica de fisioterapia en Santa Cruz, Bolivia. Tratamientos especializados en rehabilitación y fisioterapia. Contacto: belfis2025@gmail.com">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- EmailJS para formulario -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="images/logo-belfis.png" alt="Logo BELFIS" class="logo-img">
+                    <span class="logo-text">BELFIS</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <!-- Título con animación de letras -->
+                <h1 class="animated-title" id="animatedTitle">Recupera tu bienestar con <span class="highlight">BELFIS</span></h1>
+                <p>Clínica especializada en fisioterapia y rehabilitación. Tu salud y recuperación son nuestra prioridad.</p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn-primary">
+                        <i class="fas fa-calendar-alt"></i>
+                        Agenda tu Cita
+                    </a>
+                    <a href="#servicios" class="btn-secondary">
+                        <i class="fas fa-stethoscope"></i>
+                        Nuestros Servicios
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/fisioterapia-hero.jpg" alt="Fisioterapia profesional">
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <div class="servicio-icon">
+                        <i class="fas fa-hands"></i>
+                    </div>
+                    <img src="images/fisioterapia-manual.jpg" alt="Fisioterapia Manual">
+                    <h3>Fisioterapia Manual</h3>
+                    <p>Tratamientos especializados con técnicas manuales para la recuperación de lesiones y dolores musculoesqueléticos.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <img src="images/rehabilitacion-deportiva.jpg" alt="Rehabilitación Deportiva">
+                    <h3>Rehabilitación Deportiva</h3>
+                    <p>Programas específicos para atletas y deportistas, enfocados en la recuperación y prevención de lesiones.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icon">
+                        <i class="fas fa-lungs"></i>
+                    </div>
+                    <img src="images/terapia-respiratoria.jpg" alt="Terapia Respiratoria">
+                    <h3>Terapia Respiratoria</h3>
+                    <p>Tratamientos especializados para mejorar la función pulmonar y la capacidad respiratoria.</p>
+                </div>
+                <div class="servicio-card">
+                    <div class="servicio-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <img src="images/electroterapia.jpg" alt="Electroterapia">
+                    <h3>Electroterapia</h3>
+                    <p>Uso de corrientes eléctricas terapéuticas para el alivio del dolor y la estimulación muscular.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="nosotros" class="nosotros">
+        <div class="container">
+            <div class="nosotros-content">
+                <div class="nosotros-text">
+                    <h2>Sobre BELFIS</h2>
+                    <p>Somos una clínica especializada en fisioterapia y rehabilitación. Nuestro equipo de profesionales altamente calificados se dedica a brindar tratamientos personalizados y de calidad.</p>
+                    <ul class="caracteristicas">
+                        <li><i class="fas fa-check"></i> Profesionales certificados</li>
+                        <li><i class="fas fa-check"></i> Equipos de última tecnología</li>
+                        <li><i class="fas fa-check"></i> Tratamientos personalizados</li>
+                        <li><i class="fas fa-check"></i> Seguimiento continuo</li>
+                        <li><i class="fas fa-check"></i> Precios accesibles</li>
+                        <li><i class="fas fa-check"></i> Horarios flexibles</li>
+                    </ul>
+                </div>
+                <div class="nosotros-image">
+                    <img src="images/equipo-profesional.jpg" alt="Equipo profesional BELFIS">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación -->
+    <section id="ubicacion" class="ubicacion">
+        <div class="container">
+            <h2>Nuestra Ubicación</h2>
+            <div class="ubicacion-content">
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.4422!2d-63.1412!3d-17.7972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z17CYNyc1MC4wIlMgNjPCsDA4JzI4LjIiVw!5e0!3m2!1ses!2sbo!4v1620000000000!5m2!1ses!2sbo" allowfullscreen="" loading="lazy" title="Ubicación BELFIS en Santa Cruz"></iframe>
+                </div>
+
+                <div class="info-ubicacion">
+                    <h3>Visítanos</h3>
+                    <div class="direccion">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Dirección:</strong><br>
+                            Av. General Campero calle 9 entre 3 pasos al frente y Av. Cumavi. <br>
+                            Santa Cruz, Bolivia
+                        </div>
+                    </div>
+                    <div class="horarios">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Horarios de Atención:</strong><br>
+                            Lunes a Viernes: 8:00 AM - 7:00 PM<br>
+                            Sábados: 8:00 AM - 2:00 PM<br>
+                            Domingos: Cerrado
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <div class="contacto-content">
+                <div class="contacto-info">
+                    <h3>Información de Contacto</h3>
+                    
+                    <div class="contacto-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Teléfono:</strong><br>
+                            <a href="tel:+59160961352">+591 60961352</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contacto-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email:</strong><br>
+                            <a href="mailto:belfis202@gmail.com">belfis202@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Redes Sociales -->
+                    <div class="redes-sociales">
+                        <h4>Síguenos en nuestras redes:</h4>
+                        <div class="social-buttons">
+                            <a href="https://wa.me/59160961352" class="social-btn whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                WhatsApp
+                            </a>
+                            <a href="https://www.facebook.com/share/1C6rZFiGzn/" class="social-btn facebook" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                                Facebook
+                            </a>
+                            <a href="https://www.instagram.com/kineflex_1?igsh=MTI4MDRoZnZ4Ymhpag==" class="social-btn instagram" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                                Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="formulario-contacto">
+                    <h3>Envíanos un Mensaje</h3>
+                    <p>Completa el formulario y te contactaremos pronto</p>
+                    
+                    <!-- Formulario vinculado con belfis202@gmail.com -->
+                    <form id="contact-form"></form>
+                        <div class="form-group">
+                            <label for="from_name">Nombre Completo *</label>
+                            <input type="text" id="from_name" name="from_name" placeholder="Tu nombre completo" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="from_email">Correo Electrónico *</label>
+                            <input type="email" id="from_email" name="from_email" placeholder="tu@email.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Ej: 70123456">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="servicio">Servicio de Interés</label>
+                            <select id="servicio" name="servicio">
+                                <option value="">Selecciona un servicio</option>
+                                <option value="Fisioterapia Manual">Fisioterapia Manual</option>
+                                <option value="Rehabilitación Deportiva">Rehabilitación Deportiva</option>
+                                <option value="Terapia Respiratoria">Terapia Respiratoria</option>
+                                <option value="Electroterapia">Electroterapia</option>
+                                <option value="Consulta General">Consulta General</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Describe tu Consulta *</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Cuéntanos qué tipo de molestia tienes o qué información necesitas..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensaje
+                        </button>
+                        
+                        <p class="form-note">
+                            Campos obligatorios. Los mensajes se envían a: <strong>belfis202@gmail.com</strong><br>
+                            Te responderemos en menos de 24 horas.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="images/logo-belfis.png" alt="Logo BELFIS" class="logo-img">
+                        <span class="logo-text">BELFIS</span>
+                    </div>
+                    <p>Tu clínica de confianza para fisioterapia y rehabilitación profesional.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-phone"></i> +591 60961352</p>
+                    <p><i class="fas fa-envelope"></i> belfis202@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Santa Cruz, Bolivia</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="https://wa.me/59160961352" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/share/1C6rZFiGzn/" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/kineflex_1?igsh=MTI4MDRoZnZ4Ymhpag==" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 BELFIS - Clínica de Fisioterapia. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/59160961352" class="whatsapp-float" target="_blank" title="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
